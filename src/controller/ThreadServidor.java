@@ -69,7 +69,7 @@ public class ThreadServidor extends Thread {
 	}
 
 	private void processamento_1() {
-		int tempoCalculos = (int) (Math.random() * 201) + 1000;
+		int tempoCalculos = (int) (Math.random() * 801) + 200;
 		int tempoTransacao = 1000;
 
 		for (int i = 0; i < 2; i++) {
@@ -91,7 +91,7 @@ public class ThreadServidor extends Thread {
 	}
 
 	private void processamento_2() {
-		int tempoCalculos = (int) (Math.random() * 501) + 1500;
+		int tempoCalculos = (int) (Math.random() * 1001) + 500;
 		int tempoTransacao = 1500;
 
 		for (int i = 0; i < 3; i++) {
